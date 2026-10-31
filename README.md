@@ -1,4 +1,8 @@
-# LLM Speed Metrology / Метрология скорости генерации LLM
+# Kimi TPS — метрология скорости генерации Kimi
+
+> Измерения скорости генерации агента Kimi в токенах в секунду, сделанные
+> *изнутри* диалога: модель измеряет сама себя с помощью системных часов и
+> инструмента записи файлов.
 
 > **EN:** Personal measurements of an LLM agent's text generation speed, taken
 > from *inside* the conversation — the model measures itself using nothing but
