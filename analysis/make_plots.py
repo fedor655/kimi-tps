@@ -24,6 +24,7 @@ os.makedirs(PLOTS, exist_ok=True)
 SESSIONS = {
     "A": ({"1", "2"}, "#00798c", "Сессия A (2026-10-31, вечер)"),
     "B": ({"3"}, "#d1495b", "Сессия B (2026-11-01, сообщено: Kimi K2.8)"),
+    "C": ({"4"}, "#2e8540", "Сессия C (2026-11-05, агент ZCode)"),
 }
 
 
@@ -79,7 +80,7 @@ def main():
                         xytext=(8, -14), fontsize=9, color=color)
     ax.set_xlabel("Длина нагрузки L, символов")
     ax.set_ylabel("Время заезда dt, секунды")
-    ax.set_title("Время генерации против длины нагрузки — две сессии, две прямые")
+    ax.set_title("Время генерации против длины нагрузки — три сессии, три прямые")
     ax.legend(loc="upper left", fontsize=9)
     ax.grid(alpha=0.3)
     ax.set_xlim(left=0)
